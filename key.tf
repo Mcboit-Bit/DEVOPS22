@@ -1,0 +1,4 @@
+resource "aws_key_pair" "deployer" {
+  key_name   = "deployer-key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDO+kCbmpmqYlqdXMZTbthWeKv0BTV4mKYK2O0mUIJ6m1fIitUHzVae8MGC+GHvTYWmyfPpUUBjvI7dBpyeIAIBlZ5Kg0BlydcAhdD4TpEYJ7ELpl5JrXQyFI4ZrOueDBE4pLs+y5RoDyrdypMIDWFVijaEkoUUtH5RzqwSjZHoPNRF6ikzPqUQvsR1H8wd26XE8+cfXN4oKAHmFubgVwadAZRiJwLVs2csHCfRZbWJjU/GWfIqSrplQj/aizKWAdlXbI+ZKQKcHvQNf7H2JO4b3d/pau65X1z5Vthvo9eN/SZ2svWig52H+ocgdhSO1oROfwY+aVRueeuhCj8YMrv5 dibongongoh@Dibongos-MBP-2.lan"
+}
